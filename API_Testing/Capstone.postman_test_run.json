@@ -1,0 +1,179 @@
+{
+	"id": "8ebdbfbb-b8f8-44b5-832f-10c2e5859e95",
+	"name": "Capstone",
+	"timestamp": "2023-02-04T16:20:34.042Z",
+	"collection_id": "17901262-6aff2f5d-88bb-4953-b54e-6f724f4e85b5",
+	"folder_id": 0,
+	"environment_id": "17901262-74fc7b63-9bd9-4f3c-9f17-905d7ea882d3",
+	"totalPass": 7,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ce79bef3-6ccf-4805-8dc4-baedfbd2d3e7",
+			"name": "getProducts",
+			"url": "http://localhost:8081/medicare/json/data/all/products",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Got products more than 0": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Got products more than 0": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Got products more than 0": true
+				}
+			]
+		},
+		{
+			"id": "e737738b-a88d-4f7d-b5fe-88c631f5e8fd",
+			"name": "getCategoryProduct",
+			"url": "http://localhost:8081/medicare/json/data/category/1/products",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7c6e5671-d7d6-4e73-9a32-d336e6437d73",
+			"name": "getMostViewedProducts",
+			"url": "http://localhost:8081/medicare/json/data/mv/products",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "894c46f8-7ae3-4ee3-84f6-b42bc637c400",
+			"name": "getMostPurchasedProducts",
+			"url": "http://localhost:8081/medicare/json/data/mp/products",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "62a590cf-0a29-4db4-89fc-b72d58bbd01e",
+			"name": "getAbout",
+			"url": "http://localhost:8081/medicare/about",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 76,
+	"collection": {
+		"requests": [
+			{
+				"id": "ce79bef3-6ccf-4805-8dc4-baedfbd2d3e7",
+				"method": "GET"
+			},
+			{
+				"id": "e737738b-a88d-4f7d-b5fe-88c631f5e8fd",
+				"method": "GET"
+			},
+			{
+				"id": "7c6e5671-d7d6-4e73-9a32-d336e6437d73",
+				"method": "GET"
+			},
+			{
+				"id": "894c46f8-7ae3-4ee3-84f6-b42bc637c400",
+				"method": "GET"
+			},
+			{
+				"id": "62a590cf-0a29-4db4-89fc-b72d58bbd01e",
+				"method": "GET"
+			}
+		]
+	}
+}
