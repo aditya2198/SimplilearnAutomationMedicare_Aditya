@@ -1,108 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="11" passed="8">
+<testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28567" started-at="2023-02-04T15:56:38 IST" finished-at="2023-02-04T15:57:06 IST">
+  <suite name="Default suite" duration-ms="11912" started-at="2023-02-04T23:18:58 IST" finished-at="2023-02-04T23:19:10 IST">
     <groups>
       <group name="test-public">
-        <method signature="MedicareViewProductTest.validateViewProductSort(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductSort" class="med.webtest.MedicareViewProductTest"/>
+        <method signature="MedicareViewProductTest.validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" class="med.webtest.MedicareViewProductTest"/>
       </group> <!-- test-public -->
     </groups>
-    <test name="Default test" duration-ms="28567" started-at="2023-02-04T15:56:38 IST" finished-at="2023-02-04T15:57:06 IST">
+    <test name="Default test" duration-ms="11912" started-at="2023-02-04T23:18:58 IST" finished-at="2023-02-04T23:19:10 IST">
       <class name="med.webtest.MedicareViewProductTest">
-        <test-method status="PASS" signature="beforeMedicareHomeMethod()[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="beforeMedicareHomeMethod" is-config="true" duration-ms="6480" started-at="2023-02-04T15:56:38 IST" finished-at="2023-02-04T15:56:44 IST">
+        <test-method status="PASS" signature="beforeMedicareHomeMethod()[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="beforeMedicareHomeMethod" is-config="true" duration-ms="6506" started-at="2023-02-04T23:18:58 IST" finished-at="2023-02-04T23:19:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMedicareHomeMethod -->
-        <test-method status="PASS" signature="validateViewProductSort(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductSort" duration-ms="3549" started-at="2023-02-04T15:56:45 IST" data-provider="viewproduct-sort" finished-at="2023-02-04T15:56:49 IST">
+        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="1021" started-at="2023-02-04T23:19:06 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:19:07 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{dropdownSelectValue=5, pageNumber=1, sortOrder=asc, totalProducts=8, productBrand=Cipla, totalPages=2, productQty=79, rowNumber=1, productName=Aceclofenac, productPrice=42}]]>
+                <![CDATA[{dropdownSelectValue=5, pageNumber=1, totalProducts=8 entries, productBrand=Cipla, totalPages=2, productQty=50, rowNumber=1, productName=Paracetamol, productPrice=18}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateViewProductSort -->
-        <test-method status="PASS" signature="validateViewProductSort(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductSort" duration-ms="2316" started-at="2023-02-04T15:56:49 IST" data-provider="viewproduct-sort" finished-at="2023-02-04T15:56:51 IST">
+        </test-method> <!-- validateViewProductList -->
+        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="788" started-at="2023-02-04T23:19:07 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:19:08 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{dropdownSelectValue=5, pageNumber=1, sortOrder=asc, totalProducts=8, productBrand=Sun Pharma, totalPages=2, productQty=64, rowNumber=2, productName=Amoxicillin, productPrice=54}]]>
+                <![CDATA[{dropdownSelectValue=5, pageNumber=2, totalProducts=8 entries, productBrand=Sun Pharma, totalPages=2, productQty=44, rowNumber=1, productName=Ciprofloxacin, productPrice=48}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateViewProductSort -->
-        <test-method status="PASS" signature="validateViewProductSort(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductSort" duration-ms="2327" started-at="2023-02-04T15:56:51 IST" data-provider="viewproduct-sort" finished-at="2023-02-04T15:56:53 IST">
+        </test-method> <!-- validateViewProductList -->
+        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="511" started-at="2023-02-04T23:19:08 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:19:08 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{dropdownSelectValue=5, pageNumber=1, sortOrder=asc, totalProducts=8, productBrand=Sun Pharma, totalPages=2, productQty=44, rowNumber=5, productName=Ciprofloxacin, productPrice=48}]]>
+                <![CDATA[{dropdownSelectValue=3, pageNumber=2, totalProducts=8 entries, productBrand=Sun Pharma, totalPages=3, productQty=64, rowNumber=2, productName=Amoxicillin, productPrice=54}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateViewProductSort -->
-        <test-method status="PASS" signature="validateViewProductSort(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductSort" duration-ms="2698" started-at="2023-02-04T15:56:53 IST" data-provider="viewproduct-sort" finished-at="2023-02-04T15:56:56 IST">
+        </test-method> <!-- validateViewProductList -->
+        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="353" started-at="2023-02-04T23:19:08 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:19:08 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{dropdownSelectValue=5, pageNumber=2, sortOrder=asc, totalProducts=8, productBrand=Cipla, totalPages=2, productQty=49, rowNumber=2, productName=Dolo 650, productPrice=22}]]>
+                <![CDATA[{dropdownSelectValue=3, pageNumber=2, totalProducts=8 entries, productBrand=Cipla, totalPages=3, productQty=78, rowNumber=1, productName=Aceclofenac, productPrice=42}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateViewProductSort -->
-        <test-method status="PASS" signature="validateViewProductSort(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductSort" duration-ms="2379" started-at="2023-02-04T15:56:56 IST" data-provider="viewproduct-sort" finished-at="2023-02-04T15:56:58 IST">
+        </test-method> <!-- validateViewProductList -->
+        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="353" started-at="2023-02-04T23:19:08 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:19:09 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{dropdownSelectValue=5, pageNumber=2, sortOrder=asc, totalProducts=8, productBrand=Intas, totalPages=2, productQty=20, rowNumber=1, productName=Diclofenac, productPrice=30}]]>
+                <![CDATA[{dropdownSelectValue=10, pageNumber=1, totalProducts=8 entries, productBrand=Cipla, totalPages=1, productQty=49, rowNumber=2, productName=Dolo 650, productPrice=22}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateViewProductSort -->
-        <test-method status="PASS" signature="validateViewProductSort(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductSort" duration-ms="2329" started-at="2023-02-04T15:56:58 IST" data-provider="viewproduct-sort" finished-at="2023-02-04T15:57:01 IST">
+        </test-method> <!-- validateViewProductList -->
+        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="351" started-at="2023-02-04T23:19:09 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:19:09 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{dropdownSelectValue=5, pageNumber=2, sortOrder=asc, totalProducts=8, productBrand=Cipla, totalPages=2, productQty=50, rowNumber=3, productName=Paracetamol, productPrice=18}]]>
+                <![CDATA[{dropdownSelectValue=-1, pageNumber=1, totalProducts=8 entries, productBrand=Intas, totalPages=1, productQty=20, rowNumber=3, productName=Diclofenac, productPrice=30}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateViewProductSort -->
-        <test-method status="PASS" signature="validateViewProductSort(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductSort" duration-ms="2542" started-at="2023-02-04T15:57:01 IST" data-provider="viewproduct-sort" finished-at="2023-02-04T15:57:03 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{dropdownSelectValue=5, pageNumber=1, sortOrder=desc, totalProducts=8, productBrand=Cipla, totalPages=2, productQty=50, rowNumber=1, productName=Paracetamol, productPrice=18}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateViewProductSort -->
-        <test-method status="PASS" signature="validateViewProductSort(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductSort" duration-ms="2321" started-at="2023-02-04T15:57:03 IST" data-provider="viewproduct-sort" finished-at="2023-02-04T15:57:06 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{dropdownSelectValue=5, pageNumber=1, sortOrder=desc, totalProducts=8, productBrand=Intas, totalPages=2, productQty=20, rowNumber=3, productName=Diclofenac, productPrice=30}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateViewProductSort -->
-        <test-method status="PASS" signature="afterMedicareHomeMethod()[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="afterMedicareHomeMethod" is-config="true" duration-ms="724" started-at="2023-02-04T15:57:06 IST" finished-at="2023-02-04T15:57:06 IST">
+        </test-method> <!-- validateViewProductList -->
+        <test-method status="PASS" signature="afterMedicareHomeMethod()[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="afterMedicareHomeMethod" is-config="true" duration-ms="754" started-at="2023-02-04T23:19:09 IST" finished-at="2023-02-04T23:19:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMedicareHomeMethod -->

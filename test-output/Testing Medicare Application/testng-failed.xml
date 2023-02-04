@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing Medicare Application]">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="med.webtest.MedicareHomeTest">
+        <methods>
+          <include name="validateCategoryCount" invocation-numbers="0"/>
+          <include name="afterMedicareHomeMethod"/>
+          <include name="validateMostViewedProductCount" invocation-numbers="0"/>
+          <include name="validateMoreProductsMpCount" invocation-numbers="0"/>
+          <include name="validateMostPurchasedProductCount" invocation-numbers="0"/>
+          <include name="beforeMedicareHomeMethod"/>
+          <include name="validateMoreProductsMvCount" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- med.webtest.MedicareHomeTest -->
+      <class name="med.webtest.MedicareSignupTest">
+        <methods>
+          <include name="validateExistingUserLogin"/>
+          <include name="beforeMedicareHomeMethod"/>
+          <include name="validateSignupNewUser" invocation-numbers="0"/>
+          <include name="afterMedicareHomeMethod"/>
+        </methods>
+      </class> <!-- med.webtest.MedicareSignupTest -->
+      <class name="med.webtest.MedicareViewProductTest">
+        <methods>
+          <include name="beforeMedicareHomeMethod"/>
+          <include name="validateViewProductList" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="afterMedicareHomeMethod"/>
+        </methods>
+      </class> <!-- med.webtest.MedicareViewProductTest -->
+      <class name="med.webtest.MedicareAdminTest">
+        <methods>
+          <include name="validateAddProduct"/>
+          <include name="afterMedicareAdminMethod"/>
+          <include name="validateAddCategory"/>
+          <include name="validateEditProduct" invocation-numbers="0"/>
+          <include name="beforeMedicareAdminMethod"/>
+        </methods>
+      </class> <!-- med.webtest.MedicareAdminTest -->
+      <class name="med.webtest.MedicareUserCheckoutTest">
+        <methods>
+          <include name="afterMedicareUserCheckoutMethod"/>
+          <include name="beforeMedicareUserCheckoutMethod"/>
+          <include name="addProductCart"/>
+          <include name="removeProductCart"/>
+        </methods>
+      </class> <!-- med.webtest.MedicareUserCheckoutTest -->
+      <class name="med.webtest.MedicareUserTest">
+        <methods>
+          <include name="validateProductDetail" invocation-numbers="0 1"/>
+          <include name="afterMedicareUserMethod"/>
+          <include name="beforeMedicareUserMethod"/>
+        </methods>
+      </class> <!-- med.webtest.MedicareUserTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Medicare Application] -->

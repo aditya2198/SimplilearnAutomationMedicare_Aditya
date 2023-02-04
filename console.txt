@@ -1,0 +1,256 @@
+[RemoteTestNG] detected TestNG version 7.4.0
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 28148
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:41:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:356 INFO  MedicareHomePage :63 - Validated Antipyretics
+2023-02-04 22:02:404 INFO  MedicareHomePage :63 - Validated Analgesics
+2023-02-04 22:02:452 INFO  MedicareHomePage :63 - Validated Antibiotics
+2023-02-04 22:02:504 INFO  MedicareHomePage :63 - Validated Paracetamol
+2023-02-04 22:02:549 INFO  MedicareHomePage :63 - Validated Danger
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 6107
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:43:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:321 INFO  MedicareAboutPage :29 - Clicking about button
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 20653
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:43:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:379 INFO  MedicareContactPage :26 - Contact link clicked
+2023-02-04 22:02:632 INFO  MedicareContactPage :37 - Contact paragraph validated
+2023-02-04 22:02:697 INFO  MedicareContactPage :32 - Contact heading validated
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 35012
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:43:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 8785
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:44:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:279 INFO  MedicareSignupPage :118 - Ravindra Jadeja
+2023-02-04 22:02:462 INFO  MedicareSignupPage :126 - Aha! Caught You.
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 8927
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:44:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Username and Password is invalid!
+2023-02-04 22:02:99 INFO  MedicareLoginPage :70 - Username and Password is invalid!
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 24131
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:45:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:261 INFO  MedicareLoginPage :40 - user logged in Kavita Nigam
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 10999
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:45:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:535 INFO  MedicareLoginPage :40 - user logged in Vikas Kashyap
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 37579
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:45:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:948 INFO  MedicareUserPage :66 - cartTotalAmmountEl [[ChromeDriver: chrome on WINDOWS (108e65037037195dc5cfcc821b524c56)] -> xpath: //li[@id='cart']/a]
+2023-02-04 22:02:925 INFO  MedicareUserPage :71 - cartEmptyDescEl Your Cart is Empty!
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 41334
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:45:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:421 INFO  MedicareUserPage :105 - expProductName Dolo 650
+2023-02-04 22:02:467 INFO  MedicareUserPage :107 - expProductBrand Brand : Cipla
+2023-02-04 22:02:516 INFO  MedicareUserPage :109 - expProductDesc Description : An antipyretic medicine used for fever.
+2023-02-04 22:02:582 INFO  MedicareUserPage :111 - expProductPrice ? 22.0 /-
+2023-02-04 22:02:646 INFO  MedicareUserPage :113 - expSubtotal ? 22.0 /-
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 32368
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:45:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:923 INFO  MedicareUserPage :105 - expProductName Dolo 650
+2023-02-04 22:02:986 INFO  MedicareUserPage :107 - expProductBrand Brand : Cipla
+2023-02-04 22:02:37 INFO  MedicareUserPage :109 - expProductDesc Description : An antipyretic medicine used for fever.
+2023-02-04 22:02:97 INFO  MedicareUserPage :111 - expProductPrice ? 22.0 /-
+2023-02-04 22:02:144 INFO  MedicareUserPage :113 - expSubtotal ? 66.0 /-
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 8812
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:46:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:159 INFO  MedicareUserPage :88 - cartPdtDetlDescEl An antipyretic medicine used for fever.
+2023-02-04 22:02:227 INFO  MedicareUserPage :90 - expProductPrice ? 22.0 /-
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 34177
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:46:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:619 INFO  MedicareUserPage :88 - cartPdtDetlDescEl A muscle relaxant medicine.
+2023-02-04 22:02:666 INFO  MedicareUserPage :90 - expProductPrice ? 42.0 /-
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 22668
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:46:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 40573
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:47:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 13259
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:47:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 40701
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:47:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 16026
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:48:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:536 INFO  MedicareUserPage :132 - Dolo 650
+2023-02-04 22:02:556 INFO  MedicareUserPage :134 - Brand : Cipla
+2023-02-04 22:02:585 INFO  MedicareUserPage :136 - Description : An antipyretic medicine used for fever.
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 32341
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:48:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:823 INFO  MedicareUserPage :132 - Aceclofenac
+2023-02-04 22:02:839 INFO  MedicareUserPage :134 - Brand : Cipla
+2023-02-04 22:02:860 INFO  MedicareUserPage :136 - Description : A muscle relaxant medicine.
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 42203
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:48:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:957 INFO  MedicareUserPage :132 - Amoxicillin
+2023-02-04 22:02:978 INFO  MedicareUserPage :134 - Brand : Sun Pharma
+2023-02-04 22:02:998 INFO  MedicareUserPage :136 - Description : A commonly used antibiotic for bacterial infection.
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 46219
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:48:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:228 INFO  MedicareUserCheckoutPage :161 - Dolo 650
+2023-02-04 22:02:245 INFO  MedicareUserCheckoutPage :163 - Grand Total - ? 22.0/-
+2023-02-04 22:02:261 INFO  MedicareUserCheckoutPage :165 - Quantity -1
+2023-02-04 22:02:278 INFO  MedicareUserCheckoutPage :167 - Buying Price - ? 22.0/-
+2023-02-04 22:02:339 INFO  MedicareUserCheckoutPage :169 - ? 118.0/-
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 31882
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:49:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:949 INFO  MedicareUserCheckoutPage :161 - Aceclofenac
+2023-02-04 22:02:971 INFO  MedicareUserCheckoutPage :163 - Grand Total - ? 42.0/-
+2023-02-04 22:02:992 INFO  MedicareUserCheckoutPage :165 - Quantity -1
+2023-02-04 22:02:14 INFO  MedicareUserCheckoutPage :167 - Buying Price - ? 42.0/-
+2023-02-04 22:02:70 INFO  MedicareUserCheckoutPage :169 - ? 118.0/-
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 38723
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:49:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:616 INFO  MedicareUserCheckoutPage :161 - Amoxicillin
+2023-02-04 22:02:635 INFO  MedicareUserCheckoutPage :163 - Grand Total - ? 54.0/-
+2023-02-04 22:02:653 INFO  MedicareUserCheckoutPage :165 - Quantity -1
+2023-02-04 22:02:671 INFO  MedicareUserCheckoutPage :167 - Buying Price - ? 54.0/-
+2023-02-04 22:02:720 INFO  MedicareUserCheckoutPage :169 - ? 118.0/-
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 47040
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:50:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1
+Dolo 650
+Dolo 650
+1
+? 22.0
+Buying Price - ? 22.0/-
+1
+1
+Quantity -1
+1
+? 22.0
+Grand Total - ? 22.0/-
+2
+Aceclofenac
+Aceclofenac
+2
+? 42.0
+Buying Price - ? 42.0/-
+2
+1
+Quantity -1
+2
+? 42.0
+Grand Total - ? 42.0/-
+2023-02-04 22:02:965 INFO  MedicareUserCheckoutPage :75 - [{expProductQty=Quantity -1, expPurchasePrice=Buying Price - ? 22.0/-, rowNumber=1, expGrandtotal=Grand Total - ? 22.0/-, expProductName=Dolo 650}, {expProductQty=Quantity -1, expPurchasePrice=Buying Price - ? 42.0/-, rowNumber=2, expGrandtotal=Grand Total - ? 42.0/-, expProductName=Aceclofenac}]
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 27340
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:50:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 47818
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:50:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 13909
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2023 10:51:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2023-02-04 22:02:783 INFO  MedicareAdminPage :106 - Program starting
+2023-02-04 22:02:939 INFO  MedicareAdminPage :108 - Program starting - View Product link clicked
+2023-02-04 22:02:200 INFO  MedicareAdminPage :112 - Program starting - scroll clicked
+2023-02-04 22:02:457 INFO  MedicareAdminPage :114 - Program starting - page number clicked
+
+===============================================
+Testing Medicare Application
+Total tests run: 65, Passes: 54, Failures: 11, Skips: 0
+===============================================
+

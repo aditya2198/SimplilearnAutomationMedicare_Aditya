@@ -5,8 +5,8 @@
     <classes>
       <class name="med.webtest.MedicareViewProductTest">
         <methods>
-          <include name="validateViewProductSort" invocation-numbers="3 4 5"/>
           <include name="beforeMedicareHomeMethod"/>
+          <include name="validateViewProductList" invocation-numbers="3"/>
           <include name="afterMedicareHomeMethod"/>
         </methods>
       </class> <!-- med.webtest.MedicareViewProductTest -->
