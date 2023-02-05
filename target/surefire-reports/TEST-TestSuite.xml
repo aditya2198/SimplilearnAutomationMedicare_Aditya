@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="575.245" tests="66" errors="0" skipped="0" failures="30">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\IMP\Automation and Simplilearn\AutomationCapstoneProject-master\target\test-classes;C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\IMP\Automation and Simplilearn\AutomationCapstoneProject-master\target\classes;C:\Users\aavadhoo\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\aavadhoo\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\aavadhoo\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\aavadhoo\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\aavadhoo\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\aavadhoo\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\aavadhoo\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\aavadhoo\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\aavadhoo\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\aavadhoo\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\aavadhoo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\aavadhoo\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\aavadhoo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\aavadhoo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\aavadhoo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\aavadhoo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\aavadhoo\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\aavadhoo\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\aavadhoo\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\aavadhoo\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\aavadhoo\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\aavadhoo\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\aavadhoo\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\aavadhoo\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\aavadhoo\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\aavadhoo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\aavadhoo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\aavadhoo\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\aavadhoo\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\aavadhoo\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\aavadhoo\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\aavadhoo\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\aavadhoo\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\aavadhoo\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\aavadhoo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\aavadhoo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\aavadhoo\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\aavadhoo\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\aavadhoo\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\aavadhoo\AppData\Local\Temp\surefire7946412212726821389\surefirebooter17004841868894107242.jar C:\Users\aavadhoo\AppData\Local\Temp\surefire7946412212726821389 2023-02-05T12-00-16_849-jvmRun1 surefire12932119969643662675tmp surefire_0480820153864811260tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\IMP\Automation and Simplilearn\AutomationCapstoneProject-master\target\test-classes;C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\IMP\Automation and Simplilearn\AutomationCapstoneProject-master\target\classes;C:\Users\aavadhoo\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\aavadhoo\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\aavadhoo\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\aavadhoo\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\aavadhoo\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\aavadhoo\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\aavadhoo\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\aavadhoo\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\aavadhoo\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\aavadhoo\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\aavadhoo\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\aavadhoo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\aavadhoo\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\aavadhoo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\aavadhoo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\aavadhoo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\aavadhoo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\aavadhoo\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\aavadhoo\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\aavadhoo\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\aavadhoo\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\aavadhoo\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\aavadhoo\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\aavadhoo\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\aavadhoo\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\aavadhoo\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\aavadhoo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\aavadhoo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\aavadhoo\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\aavadhoo\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\aavadhoo\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\aavadhoo\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\aavadhoo\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\aavadhoo\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\aavadhoo\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\aavadhoo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\aavadhoo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\aavadhoo\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\aavadhoo\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\aavadhoo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Users\aavadhoo\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\IMP\Automation and Simplilearn\AutomationCapstoneProject-master"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\aavadhoo\AppData\Local\Temp\surefire7946412212726821389\surefirebooter17004841868894107242.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="aavadhoo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\aavadhoo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\aavadhoo\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\IMP\Automation and Simplilearn\AutomationCapstoneProject-master"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\aavadhoo\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/aavadhoo/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin/server;C:/Users/aavadhoo/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\AdoptOpenJDK\jdk-15.0.0.36-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\TakesScreenshot\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\aavadhoo\AppData\Roaming\npm;C:\Users\aavadhoo\AppData\Local\Android\Sdk\platform-tools;C:\Users\aavadhoo\AppData\Local\Android\Sdk\tools;C:\Users\aavadhoo\AppData\Local\Android\Sdk\tools\bin;C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\JUnit\apache-maven-3.8.6\bin;C:\Program Files\AdoptOpenJDK\jdk-15.0.0.36-hotspot\bin;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jre1.8.0_202\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\aavadhoo\AppData\Local\Microsoft\WindowsApps;C:\Users\aavadhoo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aavadhoo\AppData\Local\Programs\Git\cmd;C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\selenium\apache-maven-3.8.6\bin;C:\Users\aavadhoo\AppData\Roaming\npm;C:\Users\aavadhoo\AppData\Roaming\npm\node_modules\newman\bin;;C:\Users\aavadhoo\OneDrive - Capgemini\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="validateContent" classname="med.webtest.MedicareAboutTest" time="0.043"/>
+  <testcase name="validateHeading" classname="med.webtest.MedicareAboutTest" time="0.035"/>
+  <testcase name="sampleDemo" classname="med.webtest.MedicareAccessTest" time="0.001"/>
+  <testcase name="validateAddCategory" classname="med.webtest.MedicareAdminTest" time="6.567"/>
+  <testcase name="validateAddProduct" classname="med.webtest.MedicareAdminTest" time="44.232"/>
+  <testcase name="validateEditProduct" classname="med.webtest.MedicareAdminTest" time="11.398">
+    <failure message="element click intercepted: Element &lt;a href=&quot;/medicare/manage/7/product&quot; class=&quot;btn btn-warning&quot;&gt;...&lt;/a&gt; is not clickable at point (1147, 20). Other element would receive the click: &lt;a class=&quot;btn btn-default dropdown-toggle&quot; href=&quot;javascript:void(0)&quot; id=&quot;dropdownMenu1&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;true&quot;&gt;...&lt;/a&gt;&#10;  (Session info: chrome=109.0.5414.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LIN51013508&apos;, ip: &apos;192.168.29.56&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61331}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 14ea5677cca76f7c7459e2e15c4be222" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/medicare/manage/7/product" class="btn btn-warning">...</a> is not clickable at point (1147, 20). Other element would receive the click: <a class="btn btn-default dropdown-toggle" href="javascript:void(0)" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">...</a>
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61331}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 14ea5677cca76f7c7459e2e15c4be222
+	at med.webtest.MedicareAdminTest.validateEditProduct(MedicareAdminTest.java:60)
+]]></failure>
+    <system-out><![CDATA[2023-02-05 12:02:794 INFO  MedicareAdminPage :106 - Program starting
+2023-02-05 12:02:703 INFO  MedicareAdminPage :108 - Program starting - View Product link clicked
+2023-02-05 12:02:885 INFO  MedicareAdminPage :112 - Program starting - scroll clicked
+2023-02-05 12:02:119 INFO  MedicareAdminPage :114 - Program starting - page number clicked
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 13821
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 05, 2023 12:01:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateContent" classname="med.webtest.MedicareContactTest" time="0.04"/>
+  <testcase name="validateHeading" classname="med.webtest.MedicareContactTest" time="0.031"/>
+  <testcase name="validateCategoryCount" classname="med.webtest.MedicareHomeTest" time="0.034">
+    <failure message="expected [22] but found [24]" type="java.lang.AssertionError">java.lang.AssertionError: expected [22] but found [24]
+	at med.webtest.MedicareHomeTest.validateCategoryCount(MedicareHomeTest.java:56)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 43183
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 05, 2023 12:02:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateCategoryList" classname="med.webtest.MedicareHomeTest" time="0.033"/>
+  <testcase name="validateCategoryList" classname="med.webtest.MedicareHomeTest" time="0.032"/>
+  <testcase name="validateCategoryList" classname="med.webtest.MedicareHomeTest" time="0.036"/>
+  <testcase name="validateCategoryList" classname="med.webtest.MedicareHomeTest" time="0.03"/>
+  <testcase name="validateCategoryList" classname="med.webtest.MedicareHomeTest" time="0.037"/>
+  <testcase name="validateMoreProductsMpCount" classname="med.webtest.MedicareHomeTest" time="3.529">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareHomeTest.validateMoreProductsMpCount(MedicareHomeTest.java:86)
+</failure>
+  </testcase>
+  <testcase name="validateMoreProductsMvCount" classname="med.webtest.MedicareHomeTest" time="31.146">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //div[@ng-repeat=&apos;product in pCtrl.mvProducts&apos;]/parent::div/div/a[text()=&apos;More Products&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@ng-repeat='product in pCtrl.mvProducts']/parent::div/div/a[text()='More Products'] (tried for 30 second(s) with 500 milliseconds interval)
+	at med.webtest.MedicareHomeTest.validateMoreProductsMvCount(MedicareHomeTest.java:78)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@ng-repeat='product in pCtrl.mvProducts']/parent::div/div/a[text()='More Products']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4570487c3164c01f976ce49b23a5bcac
+*** Element info: {Using=xpath, value=//div[@ng-repeat='product in pCtrl.mvProducts']/parent::div/div/a[text()='More Products']}
+	at med.webtest.MedicareHomeTest.validateMoreProductsMvCount(MedicareHomeTest.java:78)
+</failure>
+  </testcase>
+  <testcase name="validateMostPurchasedProductCount" classname="med.webtest.MedicareHomeTest" time="10.04">
+    <failure message="java.lang.reflect.InvocationTargetException&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LIN51013508&apos;, ip: &apos;192.168.29.56&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.json.JsonException">org.openqa.selenium.json.JsonException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at med.webtest.MedicareHomeTest.validateMostPurchasedProductCount(MedicareHomeTest.java:70)
+Caused by: java.lang.reflect.InvocationTargetException
+	at med.webtest.MedicareHomeTest.validateMostPurchasedProductCount(MedicareHomeTest.java:70)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Most Purchased Medicines')]"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4570487c3164c01f976ce49b23a5bcac
+*** Element info: {Using=xpath, value=//h3[contains(text(),'Most Purchased Medicines')]}
+	at med.webtest.MedicareHomeTest.validateMostPurchasedProductCount(MedicareHomeTest.java:70)
+</failure>
+  </testcase>
+  <testcase name="validateMostViewedProductCount" classname="med.webtest.MedicareHomeTest" time="10.031">
+    <failure message="java.lang.reflect.InvocationTargetException&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LIN51013508&apos;, ip: &apos;192.168.29.56&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.json.JsonException">org.openqa.selenium.json.JsonException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at med.webtest.MedicareHomeTest.validateMostViewedProductCount(MedicareHomeTest.java:62)
+Caused by: java.lang.reflect.InvocationTargetException
+	at med.webtest.MedicareHomeTest.validateMostViewedProductCount(MedicareHomeTest.java:62)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Most Viewed Medicines')]"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4570487c3164c01f976ce49b23a5bcac
+*** Element info: {Using=xpath, value=//h3[contains(text(),'Most Viewed Medicines')]}
+	at med.webtest.MedicareHomeTest.validateMostViewedProductCount(MedicareHomeTest.java:62)
+</failure>
+  </testcase>
+  <testcase name="validateUserLoginFail" classname="med.webtest.MedicareLoginTest" time="5.035"/>
+  <testcase name="validateUserLoginSucess" classname="med.webtest.MedicareLoginTest" time="2.766"/>
+  <testcase name="validateUserLoginSucess" classname="med.webtest.MedicareLoginTest" time="2.263"/>
+  <testcase name="validateExistingSupplierLogin" classname="med.webtest.MedicareSignupTest" time="14.645"/>
+  <testcase name="validateExistingUserLogin" classname="med.webtest.MedicareSignupTest" time="10.027">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;login&apos;]/a&quot;}&#10;  (Session info: chrome=109.0.5414.120)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LIN51013508&apos;, ip: &apos;192.168.29.56&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 180e5d2f0faa08255e0bd2815097bbcc&#10;*** Element info: {Using=xpath, value=//li[@id=&apos;login&apos;]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//li[@id='login']/a"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 180e5d2f0faa08255e0bd2815097bbcc
+*** Element info: {Using=xpath, value=//li[@id='login']/a}
+	at med.webtest.MedicareSignupTest.validateExistingUserLogin(MedicareSignupTest.java:51)
+</failure>
+  </testcase>
+  <testcase name="validateSignupNewUser" classname="med.webtest.MedicareSignupTest" time="10.044">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Sign Up&apos;]&quot;}&#10;  (Session info: chrome=109.0.5414.120)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LIN51013508&apos;, ip: &apos;192.168.29.56&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 180e5d2f0faa08255e0bd2815097bbcc&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;Sign Up&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Sign Up']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 180e5d2f0faa08255e0bd2815097bbcc
+*** Element info: {Using=xpath, value=//a[text()='Sign Up']}
+	at med.webtest.MedicareSignupTest.validateSignupNewUser(MedicareSignupTest.java:46)
+</failure>
+  </testcase>
+  <testcase name="addProductCart" classname="med.webtest.MedicareUserCheckoutTest" time="9.896"/>
+  <testcase name="addProductCart" classname="med.webtest.MedicareUserCheckoutTest" time="9.795"/>
+  <testcase name="addProductCart" classname="med.webtest.MedicareUserCheckoutTest" time="9.768"/>
+  <testcase name="removeProductCart" classname="med.webtest.MedicareUserCheckoutTest" time="41.145">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //li[@class=&apos;dropdown open&apos;]/a&apos; (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //li[@class='dropdown open']/a' (tried for 30 second(s) with 500 milliseconds interval)
+	at med.webtest.MedicareUserCheckoutTest.removeProductCart(MedicareUserCheckoutTest.java:56)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='dropdown open']/a"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d38a2229b3a671e6ba2e7a756892ecb9
+*** Element info: {Using=xpath, value=//li[@class='dropdown open']/a}
+	at med.webtest.MedicareUserCheckoutTest.removeProductCart(MedicareUserCheckoutTest.java:56)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 37437
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 05, 2023 12:05:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateProductCart" classname="med.webtest.MedicareUserCheckoutTest" time="1.457"/>
+  <testcase name="validateProductCart" classname="med.webtest.MedicareUserCheckoutTest" time="2.122"/>
+  <testcase name="validateProductCart" classname="med.webtest.MedicareUserCheckoutTest" time="2.123"/>
+  <testcase name="validateProductFinalConf" classname="med.webtest.MedicareUserCheckoutTest" time="15.156"/>
+  <testcase name="validateProductFinalConf" classname="med.webtest.MedicareUserCheckoutTest" time="13.919"/>
+  <testcase name="validateProductFinalConf" classname="med.webtest.MedicareUserCheckoutTest" time="13.814"/>
+  <testcase name="validateOrderPlacedInfo" classname="med.webtest.MedicareUserCheckoutTest" time="18.693"/>
+  <testcase name="validateCartInformation" classname="med.webtest.MedicareUserTest" time="13.244"/>
+  <testcase name="validateCartNumbers" classname="med.webtest.MedicareUserTest" time="12.546"/>
+  <testcase name="validateCartNumbers" classname="med.webtest.MedicareUserTest" time="13.569"/>
+  <testcase name="validateProductDetail" classname="med.webtest.MedicareUserTest" time="4.426">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareUserTest.validateProductDetail(MedicareUserTest.java:57)
+</failure>
+    <system-out><![CDATA[2023-02-05 12:02:969 INFO  MedicareUserPage :88 - cartPdtDetlDescEl An antipyretic medicine used for fever.
+2023-02-05 12:02:13 INFO  MedicareUserPage :90 - expProductPrice ? 22.0 /-
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 5599
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 05, 2023 12:08:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateProductDetail" classname="med.webtest.MedicareUserTest" time="3.619">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareUserTest.validateProductDetail(MedicareUserTest.java:57)
+</failure>
+    <system-out><![CDATA[2023-02-05 12:02:594 INFO  MedicareUserPage :88 - cartPdtDetlDescEl A muscle relaxant medicine.
+2023-02-05 12:02:640 INFO  MedicareUserPage :90 - expProductPrice ? 42.0 /-
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 19109
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 05, 2023 12:09:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateViewProductCategory" classname="med.webtest.MedicareViewProductTest" time="1.835"/>
+  <testcase name="validateViewProductCategory" classname="med.webtest.MedicareViewProductTest" time="1.205">
+    <failure message="expected [49] but found [48]" type="java.lang.AssertionError">java.lang.AssertionError: expected [49] but found [48]
+	at med.webtest.MedicareViewProductTest.validateViewProductCategory(MedicareViewProductTest.java:84)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductCategory" classname="med.webtest.MedicareViewProductTest" time="1.207"/>
+  <testcase name="validateViewProductCategory" classname="med.webtest.MedicareViewProductTest" time="0.216">
+    <failure message="expected [79] but found [77]" type="java.lang.AssertionError">java.lang.AssertionError: expected [79] but found [77]
+	at med.webtest.MedicareViewProductTest.validateViewProductCategory(MedicareViewProductTest.java:84)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductCategory" classname="med.webtest.MedicareViewProductTest" time="1.179">
+    <failure message="expected [64] but found [63]" type="java.lang.AssertionError">java.lang.AssertionError: expected [64] but found [63]
+	at med.webtest.MedicareViewProductTest.validateViewProductCategory(MedicareViewProductTest.java:84)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductCategory" classname="med.webtest.MedicareViewProductTest" time="0.203"/>
+  <testcase name="validateViewProductList" classname="med.webtest.MedicareViewProductTest" time="0.973">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductList(MedicareViewProductTest.java:55)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductList" classname="med.webtest.MedicareViewProductTest" time="1.026">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductList(MedicareViewProductTest.java:55)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductList" classname="med.webtest.MedicareViewProductTest" time="0.19">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductList(MedicareViewProductTest.java:55)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductList" classname="med.webtest.MedicareViewProductTest" time="0.144">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductList(MedicareViewProductTest.java:55)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductList" classname="med.webtest.MedicareViewProductTest" time="0.159">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductList(MedicareViewProductTest.java:55)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductList" classname="med.webtest.MedicareViewProductTest" time="0.192">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductList(MedicareViewProductTest.java:55)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductSearch" classname="med.webtest.MedicareViewProductTest" time="0.598">
+    <failure message="expected [79] but found [77]" type="java.lang.AssertionError">java.lang.AssertionError: expected [79] but found [77]
+	at med.webtest.MedicareViewProductTest.validateViewProductSearch(MedicareViewProductTest.java:76)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductSearch" classname="med.webtest.MedicareViewProductTest" time="0.354"/>
+  <testcase name="validateViewProductSearch" classname="med.webtest.MedicareViewProductTest" time="0.347"/>
+  <testcase name="validateViewProductSearch" classname="med.webtest.MedicareViewProductTest" time="0.307"/>
+  <testcase name="validateViewProductSearch" classname="med.webtest.MedicareViewProductTest" time="0.273">
+    <failure message="expected [79] but found [77]" type="java.lang.AssertionError">java.lang.AssertionError: expected [79] but found [77]
+	at med.webtest.MedicareViewProductTest.validateViewProductSearch(MedicareViewProductTest.java:76)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductSearch" classname="med.webtest.MedicareViewProductTest" time="0.26"/>
+  <testcase name="validateViewProductSort" classname="med.webtest.MedicareViewProductTest" time="3.349">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductSort" classname="med.webtest.MedicareViewProductTest" time="2.139">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductSort" classname="med.webtest.MedicareViewProductTest" time="2.151">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductSort" classname="med.webtest.MedicareViewProductTest" time="2.235">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductSort" classname="med.webtest.MedicareViewProductTest" time="2.158">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductSort" classname="med.webtest.MedicareViewProductTest" time="2.147">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductSort" classname="med.webtest.MedicareViewProductTest" time="2.324">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+</failure>
+  </testcase>
+  <testcase name="validateViewProductSort" classname="med.webtest.MedicareViewProductTest" time="2.16">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+</failure>
+  </testcase>
+</testsuite>

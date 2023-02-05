@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11912" started-at="2023-02-04T23:18:58 IST" finished-at="2023-02-04T23:19:10 IST">
+  <suite name="Default suite" duration-ms="15550" started-at="2023-02-04T23:26:45 IST" finished-at="2023-02-04T23:27:01 IST">
     <groups>
       <group name="test-public">
         <method signature="MedicareViewProductTest.validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" class="med.webtest.MedicareViewProductTest"/>
       </group> <!-- test-public -->
     </groups>
-    <test name="Default test" duration-ms="11912" started-at="2023-02-04T23:18:58 IST" finished-at="2023-02-04T23:19:10 IST">
+    <test name="Default test" duration-ms="15550" started-at="2023-02-04T23:26:45 IST" finished-at="2023-02-04T23:27:01 IST">
       <class name="med.webtest.MedicareViewProductTest">
-        <test-method status="PASS" signature="beforeMedicareHomeMethod()[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="beforeMedicareHomeMethod" is-config="true" duration-ms="6506" started-at="2023-02-04T23:18:58 IST" finished-at="2023-02-04T23:19:05 IST">
+        <test-method status="PASS" signature="beforeMedicareHomeMethod()[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="beforeMedicareHomeMethod" is-config="true" duration-ms="10977" started-at="2023-02-04T23:26:45 IST" finished-at="2023-02-04T23:26:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMedicareHomeMethod -->
-        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="1021" started-at="2023-02-04T23:19:06 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:19:07 IST">
+        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="701" started-at="2023-02-04T23:26:57 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:26:58 IST">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateViewProductList -->
-        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="788" started-at="2023-02-04T23:19:07 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:19:08 IST">
+        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="990" started-at="2023-02-04T23:26:58 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:26:59 IST">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateViewProductList -->
-        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="511" started-at="2023-02-04T23:19:08 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:19:08 IST">
+        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="363" started-at="2023-02-04T23:26:59 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:26:59 IST">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateViewProductList -->
-        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="353" started-at="2023-02-04T23:19:08 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:19:08 IST">
+        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="308" started-at="2023-02-04T23:26:59 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:26:59 IST">
           <params>
             <param index="0">
               <value>
@@ -58,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateViewProductList -->
-        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="353" started-at="2023-02-04T23:19:08 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:19:09 IST">
+        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="362" started-at="2023-02-04T23:26:59 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:27:00 IST">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateViewProductList -->
-        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="351" started-at="2023-02-04T23:19:09 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:19:09 IST">
+        <test-method status="PASS" signature="validateViewProductList(java.util.HashMap)[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="validateViewProductList" duration-ms="359" started-at="2023-02-04T23:27:00 IST" data-provider="viewproduct-list" finished-at="2023-02-04T23:27:00 IST">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateViewProductList -->
-        <test-method status="PASS" signature="afterMedicareHomeMethod()[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="afterMedicareHomeMethod" is-config="true" duration-ms="754" started-at="2023-02-04T23:19:09 IST" finished-at="2023-02-04T23:19:10 IST">
+        <test-method status="PASS" signature="afterMedicareHomeMethod()[pri:0, instance:med.webtest.MedicareViewProductTest@7b69c6ba]" name="afterMedicareHomeMethod" is-config="true" duration-ms="771" started-at="2023-02-04T23:27:00 IST" finished-at="2023-02-04T23:27:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMedicareHomeMethod -->

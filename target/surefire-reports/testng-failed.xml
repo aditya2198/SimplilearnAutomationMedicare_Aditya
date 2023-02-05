@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="med.webtest.MedicareAdminTest">
+        <methods>
+          <include name="validateAddProduct"/>
+          <include name="afterMedicareAdminMethod"/>
+          <include name="validateAddCategory"/>
+          <include name="validateEditProduct" invocation-numbers="0"/>
+          <include name="beforeMedicareAdminMethod"/>
+        </methods>
+      </class> <!-- med.webtest.MedicareAdminTest -->
+      <class name="med.webtest.MedicareUserTest">
+        <methods>
+          <include name="validateProductDetail" invocation-numbers="0 1"/>
+          <include name="afterMedicareUserMethod"/>
+          <include name="beforeMedicareUserMethod"/>
+        </methods>
+      </class> <!-- med.webtest.MedicareUserTest -->
+      <class name="med.webtest.MedicareUserCheckoutTest">
+        <methods>
+          <include name="afterMedicareUserCheckoutMethod"/>
+          <include name="beforeMedicareUserCheckoutMethod"/>
+          <include name="addProductCart"/>
+          <include name="removeProductCart"/>
+        </methods>
+      </class> <!-- med.webtest.MedicareUserCheckoutTest -->
+      <class name="med.webtest.MedicareHomeTest">
+        <methods>
+          <include name="afterMedicareHomeMethod"/>
+          <include name="validateCategoryCount" invocation-numbers="0"/>
+          <include name="validateMostViewedProductCount" invocation-numbers="0"/>
+          <include name="validateMoreProductsMpCount" invocation-numbers="0"/>
+          <include name="beforeMedicareHomeMethod"/>
+          <include name="validateMostPurchasedProductCount" invocation-numbers="0"/>
+          <include name="validateMoreProductsMvCount" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- med.webtest.MedicareHomeTest -->
+      <class name="med.webtest.MedicareSignupTest">
+        <methods>
+          <include name="validateExistingUserLogin"/>
+          <include name="beforeMedicareHomeMethod"/>
+          <include name="validateSignupNewUser" invocation-numbers="0"/>
+          <include name="afterMedicareHomeMethod"/>
+        </methods>
+      </class> <!-- med.webtest.MedicareSignupTest -->
+      <class name="med.webtest.MedicareViewProductTest">
+        <methods>
+          <include name="validateViewProductSort" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="beforeMedicareHomeMethod"/>
+          <include name="validateViewProductCategory" invocation-numbers="1 3 4"/>
+          <include name="validateViewProductSearch" invocation-numbers="0 4"/>
+          <include name="validateViewProductList" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="afterMedicareHomeMethod"/>
+        </methods>
+      </class> <!-- med.webtest.MedicareViewProductTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

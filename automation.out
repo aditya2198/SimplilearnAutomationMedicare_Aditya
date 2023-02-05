@@ -1,0 +1,59 @@
+2023-02-05 12:02:308 INFO  MedicareAboutPage:29 - Clicking about button
+2023-02-05 12:02:794 INFO  MedicareAdminPage:106 - Program starting
+2023-02-05 12:02:703 INFO  MedicareAdminPage:108 - Program starting - View Product link clicked
+2023-02-05 12:02:885 INFO  MedicareAdminPage:112 - Program starting - scroll clicked
+2023-02-05 12:02:119 INFO  MedicareAdminPage:114 - Program starting - page number clicked
+2023-02-05 12:02:764 INFO  MedicareContactPage:26 - Contact link clicked
+2023-02-05 12:02:979 INFO  MedicareContactPage:37 - Contact paragraph validated
+2023-02-05 12:02:39 INFO  MedicareContactPage:32 - Contact heading validated
+2023-02-05 12:02:277 INFO  MedicareHomePage:63 - Validated Antipyretics
+2023-02-05 12:02:309 INFO  MedicareHomePage:63 - Validated Analgesics
+2023-02-05 12:02:345 INFO  MedicareHomePage:63 - Validated Antibiotics
+2023-02-05 12:02:375 INFO  MedicareHomePage:63 - Validated Paracetamol
+2023-02-05 12:02:413 INFO  MedicareHomePage:63 - Validated Danger
+2023-02-05 12:02:72 INFO  MedicareLoginPage:70 - Username and Password is invalid!
+2023-02-05 12:02:688 INFO  MedicareLoginPage:40 - user logged in Kavita Nigam
+2023-02-05 12:02:585 INFO  MedicareLoginPage:40 - user logged in Vikas Kashyap
+2023-02-05 12:02:459 INFO  MedicareSignupPage:118 - Ravindra Jadeja
+2023-02-05 12:02:356 INFO  MedicareSignupPage:126 - Aha! Caught You.
+2023-02-05 12:02:340 INFO  MedicareUserPage:132 - Dolo 650
+2023-02-05 12:02:366 INFO  MedicareUserPage:134 - Brand : Cipla
+2023-02-05 12:02:392 INFO  MedicareUserPage:136 - Description : An antipyretic medicine used for fever.
+2023-02-05 12:02:17 INFO  MedicareUserPage:132 - Aceclofenac
+2023-02-05 12:02:37 INFO  MedicareUserPage:134 - Brand : Cipla
+2023-02-05 12:02:58 INFO  MedicareUserPage:136 - Description : A muscle relaxant medicine.
+2023-02-05 12:02:16 INFO  MedicareUserPage:132 - Amoxicillin
+2023-02-05 12:02:41 INFO  MedicareUserPage:134 - Brand : Sun Pharma
+2023-02-05 12:02:65 INFO  MedicareUserPage:136 - Description : A commonly used antibiotic for bacterial infection.
+2023-02-05 12:02:506 INFO  MedicareUserCheckoutPage:161 - Dolo 650
+2023-02-05 12:02:525 INFO  MedicareUserCheckoutPage:163 - Grand Total - ? 22.0/-
+2023-02-05 12:02:542 INFO  MedicareUserCheckoutPage:165 - Quantity -1
+2023-02-05 12:02:560 INFO  MedicareUserCheckoutPage:167 - Buying Price - ? 22.0/-
+2023-02-05 12:02:595 INFO  MedicareUserCheckoutPage:169 - ? 118.0/-
+2023-02-05 12:02:265 INFO  MedicareUserCheckoutPage:161 - Aceclofenac
+2023-02-05 12:02:283 INFO  MedicareUserCheckoutPage:163 - Grand Total - ? 42.0/-
+2023-02-05 12:02:300 INFO  MedicareUserCheckoutPage:165 - Quantity -1
+2023-02-05 12:02:316 INFO  MedicareUserCheckoutPage:167 - Buying Price - ? 42.0/-
+2023-02-05 12:02:357 INFO  MedicareUserCheckoutPage:169 - ? 118.0/-
+2023-02-05 12:02:729 INFO  MedicareUserCheckoutPage:161 - Amoxicillin
+2023-02-05 12:02:751 INFO  MedicareUserCheckoutPage:163 - Grand Total - ? 54.0/-
+2023-02-05 12:02:772 INFO  MedicareUserCheckoutPage:165 - Quantity -1
+2023-02-05 12:02:789 INFO  MedicareUserCheckoutPage:167 - Buying Price - ? 54.0/-
+2023-02-05 12:02:828 INFO  MedicareUserCheckoutPage:169 - ? 118.0/-
+2023-02-05 12:02:364 INFO  MedicareUserCheckoutPage:75 - [{expProductQty=Quantity -1, expPurchasePrice=Buying Price - ? 22.0/-, rowNumber=1, expGrandtotal=Grand Total - ? 22.0/-, expProductName=Dolo 650}, {expProductQty=Quantity -1, expPurchasePrice=Buying Price - ? 42.0/-, rowNumber=2, expGrandtotal=Grand Total - ? 42.0/-, expProductName=Aceclofenac}]
+2023-02-05 12:02:761 INFO  MedicareUserPage:66 - cartTotalAmmountEl [[ChromeDriver: chrome on WINDOWS (711f0752128aecd8a7fd50ce0373510f)] -> xpath: //li[@id='cart']/a]
+2023-02-05 12:02:635 INFO  MedicareUserPage:71 - cartEmptyDescEl Your Cart is Empty!
+2023-02-05 12:02:908 INFO  MedicareUserPage:105 - expProductName Dolo 650
+2023-02-05 12:02:946 INFO  MedicareUserPage:107 - expProductBrand Brand : Cipla
+2023-02-05 12:02:986 INFO  MedicareUserPage:109 - expProductDesc Description : An antipyretic medicine used for fever.
+2023-02-05 12:02:32 INFO  MedicareUserPage:111 - expProductPrice ? 22.0 /-
+2023-02-05 12:02:76 INFO  MedicareUserPage:113 - expSubtotal ? 22.0 /-
+2023-02-05 12:02:61 INFO  MedicareUserPage:105 - expProductName Dolo 650
+2023-02-05 12:02:98 INFO  MedicareUserPage:107 - expProductBrand Brand : Cipla
+2023-02-05 12:02:134 INFO  MedicareUserPage:109 - expProductDesc Description : An antipyretic medicine used for fever.
+2023-02-05 12:02:171 INFO  MedicareUserPage:111 - expProductPrice ? 22.0 /-
+2023-02-05 12:02:210 INFO  MedicareUserPage:113 - expSubtotal ? 66.0 /-
+2023-02-05 12:02:969 INFO  MedicareUserPage:88 - cartPdtDetlDescEl An antipyretic medicine used for fever.
+2023-02-05 12:02:13 INFO  MedicareUserPage:90 - expProductPrice ? 22.0 /-
+2023-02-05 12:02:594 INFO  MedicareUserPage:88 - cartPdtDetlDescEl A muscle relaxant medicine.
+2023-02-05 12:02:640 INFO  MedicareUserPage:90 - expProductPrice ? 42.0 /-

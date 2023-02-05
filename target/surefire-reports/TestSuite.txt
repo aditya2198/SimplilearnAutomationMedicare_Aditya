@@ -1,0 +1,205 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 66, Failures: 30, Errors: 0, Skipped: 0, Time elapsed: 575.245 s <<< FAILURE! - in TestSuite
+validateEditProduct(med.webtest.MedicareAdminTest)  Time elapsed: 11.398 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/medicare/manage/7/product" class="btn btn-warning">...</a> is not clickable at point (1147, 20). Other element would receive the click: <a class="btn btn-default dropdown-toggle" href="javascript:void(0)" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">...</a>
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61331}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 14ea5677cca76f7c7459e2e15c4be222
+	at med.webtest.MedicareAdminTest.validateEditProduct(MedicareAdminTest.java:60)
+
+validateCategoryCount(med.webtest.MedicareHomeTest)  Time elapsed: 0.034 s  <<< FAILURE!
+java.lang.AssertionError: expected [22] but found [24]
+	at med.webtest.MedicareHomeTest.validateCategoryCount(MedicareHomeTest.java:56)
+
+validateMoreProductsMpCount(med.webtest.MedicareHomeTest)  Time elapsed: 3.529 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareHomeTest.validateMoreProductsMpCount(MedicareHomeTest.java:86)
+
+validateMoreProductsMvCount(med.webtest.MedicareHomeTest)  Time elapsed: 31.146 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@ng-repeat='product in pCtrl.mvProducts']/parent::div/div/a[text()='More Products'] (tried for 30 second(s) with 500 milliseconds interval)
+	at med.webtest.MedicareHomeTest.validateMoreProductsMvCount(MedicareHomeTest.java:78)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@ng-repeat='product in pCtrl.mvProducts']/parent::div/div/a[text()='More Products']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4570487c3164c01f976ce49b23a5bcac
+*** Element info: {Using=xpath, value=//div[@ng-repeat='product in pCtrl.mvProducts']/parent::div/div/a[text()='More Products']}
+	at med.webtest.MedicareHomeTest.validateMoreProductsMvCount(MedicareHomeTest.java:78)
+
+validateMostPurchasedProductCount(med.webtest.MedicareHomeTest)  Time elapsed: 10.04 s  <<< FAILURE!
+org.openqa.selenium.json.JsonException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at med.webtest.MedicareHomeTest.validateMostPurchasedProductCount(MedicareHomeTest.java:70)
+Caused by: java.lang.reflect.InvocationTargetException
+	at med.webtest.MedicareHomeTest.validateMostPurchasedProductCount(MedicareHomeTest.java:70)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Most Purchased Medicines')]"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4570487c3164c01f976ce49b23a5bcac
+*** Element info: {Using=xpath, value=//h3[contains(text(),'Most Purchased Medicines')]}
+	at med.webtest.MedicareHomeTest.validateMostPurchasedProductCount(MedicareHomeTest.java:70)
+
+validateMostViewedProductCount(med.webtest.MedicareHomeTest)  Time elapsed: 10.031 s  <<< FAILURE!
+org.openqa.selenium.json.JsonException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at med.webtest.MedicareHomeTest.validateMostViewedProductCount(MedicareHomeTest.java:62)
+Caused by: java.lang.reflect.InvocationTargetException
+	at med.webtest.MedicareHomeTest.validateMostViewedProductCount(MedicareHomeTest.java:62)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Most Viewed Medicines')]"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4570487c3164c01f976ce49b23a5bcac
+*** Element info: {Using=xpath, value=//h3[contains(text(),'Most Viewed Medicines')]}
+	at med.webtest.MedicareHomeTest.validateMostViewedProductCount(MedicareHomeTest.java:62)
+
+validateExistingUserLogin(med.webtest.MedicareSignupTest)  Time elapsed: 10.027 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//li[@id='login']/a"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 180e5d2f0faa08255e0bd2815097bbcc
+*** Element info: {Using=xpath, value=//li[@id='login']/a}
+	at med.webtest.MedicareSignupTest.validateExistingUserLogin(MedicareSignupTest.java:51)
+
+validateSignupNewUser(med.webtest.MedicareSignupTest)  Time elapsed: 10.044 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Sign Up']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 180e5d2f0faa08255e0bd2815097bbcc
+*** Element info: {Using=xpath, value=//a[text()='Sign Up']}
+	at med.webtest.MedicareSignupTest.validateSignupNewUser(MedicareSignupTest.java:46)
+
+removeProductCart(med.webtest.MedicareUserCheckoutTest)  Time elapsed: 41.145 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //li[@class='dropdown open']/a' (tried for 30 second(s) with 500 milliseconds interval)
+	at med.webtest.MedicareUserCheckoutTest.removeProductCart(MedicareUserCheckoutTest.java:56)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='dropdown open']/a"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d38a2229b3a671e6ba2e7a756892ecb9
+*** Element info: {Using=xpath, value=//li[@class='dropdown open']/a}
+	at med.webtest.MedicareUserCheckoutTest.removeProductCart(MedicareUserCheckoutTest.java:56)
+
+validateProductDetail(med.webtest.MedicareUserTest)  Time elapsed: 4.426 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareUserTest.validateProductDetail(MedicareUserTest.java:57)
+
+validateProductDetail(med.webtest.MedicareUserTest)  Time elapsed: 3.619 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareUserTest.validateProductDetail(MedicareUserTest.java:57)
+
+validateViewProductCategory(med.webtest.MedicareViewProductTest)  Time elapsed: 1.205 s  <<< FAILURE!
+java.lang.AssertionError: expected [49] but found [48]
+	at med.webtest.MedicareViewProductTest.validateViewProductCategory(MedicareViewProductTest.java:84)
+
+validateViewProductCategory(med.webtest.MedicareViewProductTest)  Time elapsed: 0.216 s  <<< FAILURE!
+java.lang.AssertionError: expected [79] but found [77]
+	at med.webtest.MedicareViewProductTest.validateViewProductCategory(MedicareViewProductTest.java:84)
+
+validateViewProductCategory(med.webtest.MedicareViewProductTest)  Time elapsed: 1.179 s  <<< FAILURE!
+java.lang.AssertionError: expected [64] but found [63]
+	at med.webtest.MedicareViewProductTest.validateViewProductCategory(MedicareViewProductTest.java:84)
+
+validateViewProductList(med.webtest.MedicareViewProductTest)  Time elapsed: 0.973 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductList(MedicareViewProductTest.java:55)
+
+validateViewProductList(med.webtest.MedicareViewProductTest)  Time elapsed: 1.026 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductList(MedicareViewProductTest.java:55)
+
+validateViewProductList(med.webtest.MedicareViewProductTest)  Time elapsed: 0.19 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductList(MedicareViewProductTest.java:55)
+
+validateViewProductList(med.webtest.MedicareViewProductTest)  Time elapsed: 0.144 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductList(MedicareViewProductTest.java:55)
+
+validateViewProductList(med.webtest.MedicareViewProductTest)  Time elapsed: 0.159 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductList(MedicareViewProductTest.java:55)
+
+validateViewProductList(med.webtest.MedicareViewProductTest)  Time elapsed: 0.192 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductList(MedicareViewProductTest.java:55)
+
+validateViewProductSearch(med.webtest.MedicareViewProductTest)  Time elapsed: 0.598 s  <<< FAILURE!
+java.lang.AssertionError: expected [79] but found [77]
+	at med.webtest.MedicareViewProductTest.validateViewProductSearch(MedicareViewProductTest.java:76)
+
+validateViewProductSearch(med.webtest.MedicareViewProductTest)  Time elapsed: 0.273 s  <<< FAILURE!
+java.lang.AssertionError: expected [79] but found [77]
+	at med.webtest.MedicareViewProductTest.validateViewProductSearch(MedicareViewProductTest.java:76)
+
+validateViewProductSort(med.webtest.MedicareViewProductTest)  Time elapsed: 3.349 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+
+validateViewProductSort(med.webtest.MedicareViewProductTest)  Time elapsed: 2.139 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+
+validateViewProductSort(med.webtest.MedicareViewProductTest)  Time elapsed: 2.151 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+
+validateViewProductSort(med.webtest.MedicareViewProductTest)  Time elapsed: 2.235 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+
+validateViewProductSort(med.webtest.MedicareViewProductTest)  Time elapsed: 2.158 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+
+validateViewProductSort(med.webtest.MedicareViewProductTest)  Time elapsed: 2.147 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+
+validateViewProductSort(med.webtest.MedicareViewProductTest)  Time elapsed: 2.324 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+
+validateViewProductSort(med.webtest.MedicareViewProductTest)  Time elapsed: 2.16 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at med.webtest.MedicareViewProductTest.validateViewProductSort(MedicareViewProductTest.java:68)
+
