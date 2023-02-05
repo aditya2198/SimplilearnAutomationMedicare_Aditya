@@ -7,7 +7,7 @@ pipeline {
                
                echo 'Getting code from github'
                   // Get some code from a GitHub repository
-               git 'https://github.com/bvisvanathan/AutomationCapstoneProject.git'
+               git 'https://github.com/aditya2198/SimplilearnAutomationMedicare_Aditya.git'
 
                 // Run Maven on a Unix agent.
                 
@@ -18,16 +18,6 @@ pipeline {
             steps {
                 echo 'Testing..'
                 bat "mvn test"
-            }
-        }
-        stage('Test Reqres API') {
-            steps {
-                echo 'Testing API....'
-                bat """
-                cd C:\\Users\\balaj\\AppData\\Roaming\\npm 
-                newman run https://www.getpostman.com/collections/add0d9647a3632b08889
-                """
-                
             }
         }
     }
